@@ -32,7 +32,7 @@ height: 700px;
 border: 6px double #00BFFF; 
 border-radius: 15px; 
 padding: 8px; 
-opacity: 0.8; 
+opacity: 0.99; 
 transform: scale(1);
 right: 30px;
 }
@@ -141,11 +141,13 @@ border: 6px double #00BFFF;
 border-radius: 15px; 
 padding-left: 20px; 
 padding-right:60px;
-opacity: 0.8; 
+opacity: 0.99; 
 transform: scale(1);
 top: 60px;
 left: 500px;
 margin-left: 5px;
+background-color:#071019;
+background-opacity: 0.3;
 }
 .Board1:hover{
 opacity: 1;
@@ -230,7 +232,7 @@ border: 6px double #00BFFF;
 border-radius: 15px; 
 padding-left: 20px; 
 padding-right:60px;
-opacity: 0.8; 
+opacity: 0.99; 
 transform: scale(1);
 top: 5px;
 left: 500px;
@@ -259,7 +261,7 @@ display: block;
 width:200px;
 height:245px;
 transform: scale (1);
-opacity: 0.8;
+opacity: 0.99;
 }
 .Kontakti:hover{
 opacity: 1; transform: scale(1);

@@ -29,9 +29,10 @@ height: auto;
 border: 6px double #00BFFF; 
 border-radius: 15px; 
 padding: 8px; 
-opacity: 0.8; 
+opacity: 0.99; 
 transform: scale(1);
 margin-right:30px;
+background-color:#071019;
 }
 .Board:hover{
 opacity: 1;
@@ -70,7 +71,7 @@ position:relative;
                 border:2px solid #00BFFF;
                 text-decoration:none;
 				border-radius: 15px;
-				opacity:0.8;
+				opacity:0.9;
 					 cursor: url(cursor1.cur), url(cursor1.cur), default;
             }
 #bogema ul li a:hover, #menuVertical ul li:hover a{

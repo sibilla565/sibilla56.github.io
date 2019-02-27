@@ -187,7 +187,7 @@ display: block;
 width:200px;
 height:200px;
 transform: scale (1);
-opacity: 0.8;
+opacity: 0.99;
 }
 .Kontakti:hover{
 opacity: 1; transform: scale(1);
@@ -212,7 +212,7 @@ display: block;
 width:200px;
 height:200px;
 transform: scale (1);
-opacity: 0.8;
+opacity: 0.99;
 }
 .Kontakti1:hover{
 opacity: 1; transform: scale(1);
@@ -240,7 +240,7 @@ borde: 5px double  #00BFFF;
 width: 10%;
 border-radius: 15px; 
 padding: 8px; 
-opacity: 0.8; 
+opacity: 0.99; 
 transform: scale(1);
 }
 .Menu:hover{
@@ -274,7 +274,7 @@ height: 200px;
 border: 6px double #00BFFF; 
 border-radius: 15px; 
 padding: 8px; 
-opacity: 0.8; 
+opacity: 0.99; 
 transform: scale(1);
 }
 .Board:hover{
@@ -294,7 +294,7 @@ height: 200px;
 border: 6px double #00BFFF; 
 border-radius: 15px; 
 padding: 8px; 
-opacity: 0.8; 
+opacity: 0.9; 
 transform: scale(1);
 margin-bottom: 5px;
 margin-top: 5px
@@ -317,7 +317,7 @@ height: 200px;
 border: 6px double #00BFFF; 
 border-radius: 15px; 
 padding: 8px; 
-opacity: 0.8; 
+opacity: 0.99; 
 transform: scale(1);
 }
 .Board2:hover{
@@ -344,7 +344,7 @@ display: block;
 width:1200px;
 height:200px;
 transform: scale (1);
-opacity: 0.8;
+opacity: 0.99;
 }
 .Kontakti2:hover{
 opacity: 1; transform: scale(1);
