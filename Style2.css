@@ -1,0 +1,356 @@
+html{
+	cursor: url(cursor.cur), url(cursor1.cur), default;
+}
+body {
+background: url(1.jpg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%;
+
+}
+#bogema ul{
+        display:block;
+        width:200px;
+        height:auto;
+        margin:5px;
+        padding:5px;
+        list-style:none;
+        position:relative;
+		 cursor: url(cursor.cur), url(cursor1.cur), default;
+    }
+#bogema ul li{
+display:block; 
+width:230px; 
+height:auto; 
+position:relative;
+ cursor: url(cursor.cur), url(cursor1.cur), default;
+}
+#bogema ul li a{
+				transition: 0.7s all; 
+				margin: 5px 5px 4px 3px;
+				margin-left: 2px;
+                position:relative;
+                display:block;
+                width:auto;
+                height:auto;
+                box-sizing:border-box;
+                font-size:13px;
+                text-transform:uppercase;
+                font-weight:bold;
+                color:#00CED1;
+                line-height:1.2em;
+                padding:10px 15px;
+                background-image:url(2.gif);
+                border:2px solid #00BFFF;
+                text-decoration:none;
+				border-radius: 15px;
+				opacity:0.5;
+				 cursor: url(cursor1.cur), url(cursor1.cur), default;
+            }
+#bogema ul li a:hover, #menuVertical ul li:hover a{
+                background:url(2.gif);
+				opacity:1 ;
+
+            }
+#bogema ul li ul{
+				transition: 0.7s all;
+                position:absolute;
+                top:0px;
+                left:100%;
+                display:none;
+                width:auto;
+				opacity:1;
+            }
+#bogema ul li:hover ul{
+display:block;}
+#bogema ul li ul li a{
+                    white-space:nowrap;
+                    text-transform:none;
+                    padding:5px 20px;
+                }
+#bogema ul li ul li a:hover{
+                        background:url(2.png);
+				}
+.bt{
+list-style-type: none;
+position: absolute;
+left: 15px;
+transition: 1s all;
+margin-bottom: 5px;
+margin-top: 5px;
+border: 2px solid #00BFFF; 
+padding: 5px;
+background: url(2.png);
+border-radius: 8px;
+opacity: 1 ;
+display: flex;
+
+}
+#red{
+opacity: 1;
+cursor: url(7.png), url(7.png), default;
+}
+.das{
+width:50px;
+height:30px;
+}
+a{
+ cursor: url(cursor.cur), url(cursor1.cur), default;
+}
+#qwerty{
+	
+position: absolute;
+left: 3px;
+opacity: 0;
+width: 1280px;
+height: 690px;
+ cursor: url(cursor.cur), url(cursor1.cur), default;
+}
+#b55{
+background-image: url(3.png);
+background-position:right ;
+background-size: 300px 400px;
+background-repeat: no-repeat;
+}
+.Yakori{
+font-color: #e60000 ;
+}
+.Yakori1{
+position:absolute;
+left:5px;
+right:30px;
+}
+.bi{
+transition: 1s all;
+margin-bottom: 5px;
+margin-top: 5px;
+border: 2px solid #00BFFF; 
+padding: 5px;
+background: url(2.png);
+border-radius: 8px;
+opacity: 0.5 
+}
+.bi:hover{
+opacity: 1
+}
+#G{
+background-attachment: absolute;
+background-image:url(Лучшие из лучших.png);
+background-size: 300px 420px;
+background-repeat: no-repeat;
+height: 420px;
+width: 300px;
+position: absolute;
+bottom:;
+top:270px;
+left:120px;
+right:;
+}
+.bo{
+position: absolute;
+top:10px;
+bottom:;
+left:;
+right:25px;
+transition: 1s all;
+margin-bottom: 5px;
+margin-top: 5px;
+border: 2px solid #00BFFF; 
+padding: 5px;
+background-image: url(5.png);
+background-size:200px 320px;
+border-radius: 8px; 
+display: block;
+width:200px;
+height:300px;
+}
+.r1:hover{
+transform: scale (0.2);
+}
+.Kontakti{
+list-style-type: none;
+margin: 5px 5px 5px 3px;
+position: absolute;
+top:20px;
+bottom:;
+left:1060px;
+right:25px;
+transition: 0.6s all;
+margin-bottom: 5px;
+margin-top: 5px;
+border: 6px double #00BFFF; 
+padding: 5px;
+background-imag: url(5.png);
+background-size:200px 320px;
+border-radius: 8px; 
+display: block;
+width:200px;
+height:200px;
+transform: scale (1);
+opacity: 0.8;
+}
+.Kontakti:hover{
+opacity: 1; transform: scale(1);
+}
+.Kontakti1{
+list-style-type: none;
+margin: 5px 5px 5px 3px;
+position: absolute;
+top:275px;
+bottom:;
+left:1060px;
+right:25px;
+transition: 0.6s all;
+margin-bottom: 5px;
+margin-top: 5px;
+border: 6px double #00BFFF; 
+padding: 5px;
+background-imag: url(5.png);
+background-size:200px 320px;
+border-radius: 8px; 
+display: block;
+width:200px;
+height:200px;
+transform: scale (1);
+opacity: 0.8;
+}
+.Kontakti1:hover{
+opacity: 1; transform: scale(1);
+}
+#Helper{
+background-attachment: absolute;
+background-repeat: no-repeat;
+background-image:url(8.png);
+background-size: 400px 400px;
+height: 400px;
+width: 400px;
+position: absolute;
+bottom:30px;
+top:220px;
+left:863px;
+right:1px;
+}
+.Menu{
+transition: 0.6s all;
+list-style-type: none;
+margin: 5px;
+overflow: hidden;
+background-colo: #1a0000;
+borde: 5px double  #00BFFF;
+width: 10%;
+border-radius: 15px; 
+padding: 8px; 
+opacity: 0.8; 
+transform: scale(1);
+}
+.Menu:hover{
+transform: scale (2);
+opacity: 1;
+}
+li{
+float: left;
+}
+.Li 1{
+display: block;
+color:red;
+text-align: center;
+padding: 16px;
+text-decoration: none;
+}
+.li 1:hover{
+background-color: #00BFFF;
+transform: scale (2);
+}
+.Board {
+	background: url(3.jpg);
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+position: absolute;
+top: 20px;
+left: 500px;
+transition: 0.6s all;
+width: 500px;
+height: 200px;
+border: 6px double #00BFFF; 
+border-radius: 15px; 
+padding: 8px; 
+opacity: 0.8; 
+transform: scale(1);
+}
+.Board:hover{
+opacity: 1;
+transform: scale(1);
+}
+.Board1 {
+	background: url(3.jpg);
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+position: absolute;
+top: 275px;
+left: 500px;
+transition: 0.6s all;
+width: 500px;
+height: 200px;
+border: 6px double #00BFFF; 
+border-radius: 15px; 
+padding: 8px; 
+opacity: 0.8; 
+transform: scale(1);
+margin-bottom: 5px;
+margin-top: 5px
+}
+.Board1:hover{
+opacity: 1;
+transform: scale(1);
+}
+.Board2 {
+background: url(2.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+position: absolute;
+top: 275px;
+left:30px;
+right: 500px;
+transition: 0.6s all;
+width: 400px;
+height: 200px;
+border: 6px double #00BFFF; 
+border-radius: 15px; 
+padding: 8px; 
+opacity: 0.8; 
+transform: scale(1);
+}
+.Board2:hover{
+opacity: 1;
+transform: scale(1);
+}
+.Kontakti2{
+list-style-type: none;
+margin: 5px 5px 5px 3px;
+position: absolute;
+top:520px;
+bottom:;
+left:50px;
+right:50px;
+transition: 0.6s all;
+margin-bottom: 5px;
+margin-top: 5px;
+border: 6px double #00BFFF; 
+padding: 5px;
+background-image: url(31.jpg);
+background-size:100% 100%;
+border-radius: 8px; 
+display: block;
+width:1200px;
+height:200px;
+transform: scale (1);
+opacity: 0.8;
+}
+.Kontakti2:hover{
+opacity: 1; transform: scale(1);
+}
+.odr{
+	border: 2px solid #00BFFF; 
+margin-left: 50px;
+margin-bottom: 3px;
+}

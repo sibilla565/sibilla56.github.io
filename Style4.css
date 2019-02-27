@@ -1,0 +1,278 @@
+html{
+	cursor: url(cursor.cur), url(cursor.cur), default;
+}
+body {
+background: url(6.png);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%;
+cursor: url(cursor.cur), url(cursor.cur), default;
+}
+#qwerty{
+position: absolute;
+left: 3px;
+opacity: 0;
+width: 1280px;
+height: 690px;
+ cursor: url(cursor.cur), url(cursor.cur), default;
+}
+a{
+ cursor: url(cursor.cur), url(cursor.cur), default;
+}
+.Board {
+	background: url(.jpg);
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+position: absolute;
+top: 20px;
+left: 400px;
+transition: 0.6s all;
+width: 600px;
+height: 700px;
+border: 6px double #00BFFF; 
+border-radius: 15px; 
+padding: 8px; 
+opacity: 0.8; 
+transform: scale(1);
+right: 30px;
+}
+.Board:hover{
+opacity: 1;
+transform: scale(1);
+}
+#bogema ul{
+        display:block;
+        width:200px;
+        height:auto;
+        margin:5px;
+        padding:5px;
+        list-style:none;
+        position:relative;
+    }
+#bogema ul li{
+display:block; 
+width:auto; 
+height:auto; 
+position:relative;
+}
+#bogema ul li a{
+				transition: 0.7s all; 
+				margin: 5px 5px 4px 3px;
+                position:relative;
+                display:block;
+                width:auto;
+                height:auto;
+                box-sizing:border-box;
+                font-size:13px;
+                text-transform:uppercase;
+                font-weight:bold;
+                color:#00CED1;
+                line-height:1.2em;
+                padding:10px 15px;
+                background-image:url(2.gif);
+				background-repeat: no-repeat;
+				background-size: 100%;
+                border:2px solid #00BFFF;
+                text-decoration:none;
+				border-radius: 15px;
+				opacity:0.8;
+					 cursor: url(cursor1.cur), url(cursor1.cur), default;
+            }
+#bogema ul li a:hover, #menuVertical ul li:hover a{
+                background:url(2.gif);
+				background-repeat: no-repeat;
+				background-size: 100%;
+				opacity:1 ;
+
+            }
+#bogema ul li ul{
+				transition: 0.7s all;
+                position:absolute;
+                top:0px;
+                left:100%;
+                display:none;
+                width:200px;
+				opacity:1;
+            }
+#bogema ul li:hover ul{
+display:block;}
+#bogema ul li ul li a{
+                    white-space:nowrap;
+                    text-transform:none;
+                    padding:5px 20px;
+                }
+#bogema ul li ul li a:hover{
+                        background:url(2.png);
+				}
+.Kontakti1{
+list-style-type: none;
+margin: 5px 5px 5px 3px;
+position: absolute;
+top:300px;
+bottom:;
+left:;
+right:25px;
+transition: 0.6s all;
+margin-bottom: 5px;
+margin-top: 5px;
+border: 6px double #00BFFF; 
+padding: 5px;
+background-imag: url(5.png);
+background-size:200px 320px;
+border-radius: 8px; 
+display: block;
+width:200px;
+height:200px;
+transform: scale (1);
+opacity: 0.8;
+}
+.Kontakti1:hover{
+opacity: 1; transform: scale(1);
+}
+.Board1 {
+	background: url(.jpg);
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+position: absolute;
+transition: 0.6s all;
+width: 600px;
+height: auto;
+border: 6px double #00BFFF; 
+border-radius: 15px; 
+padding-left: 20px; 
+padding-right:60px;
+opacity: 0.8; 
+transform: scale(1);
+top: 60px;
+left: 500px;
+margin-left: 5px;
+}
+.Board1:hover{
+opacity: 1;
+transform: scale(1);
+}
+.bogema1ul{
+	margin-right: 51px;
+        display:block;
+        width:300px;
+        height:auto;
+        margin:5px;
+        padding:5px;
+        list-style:none;
+        position:relative;
+    }
+.bogema1 ul li{
+display:block; 
+width:auto; 
+height:auto; 
+position:relative;
+}
+.bogema1 ul li a{
+	left: -40px
+				transition: 0.7s all; 
+				margin: 5px 5px 4px 3px;
+                position:relative;
+                display:block;
+                width:auto;
+                height:auto;
+                box-sizing:border-box;
+                font-size:13px;
+                text-transform:uppercase;
+                font-weight:bold;
+                color:#00CED1;
+                line-height:1.2em;
+                padding:10px 15px;
+                background-image:url(2.gif);
+				background-repeat: no-repeat;
+				background-size: 100%;
+                border:2px solid #00BFFF;
+                text-decoration:none;
+				border-radius: 15px;
+				opacity:0.8;
+					 cursor: url(cursor1.cur), url(cursor1.cur), default;
+            }
+.bogema1 ul li a:hover, #menuVertical ul li:hover a{
+                background:url(2.gif);
+				background-repeat: no-repeat;
+				background-size: 100%;
+				opacity:1 ;
+
+            }
+.bogema1 ul li ul{
+				transition: 0.7s all;
+                position:relative;
+                display:none;
+                width:560px;
+				height: auto;
+				opacity:1;
+				left: -40px
+				
+            }
+.bogema1 ul li:hover ul{
+display:block;}
+.bogema1 ul li ul li a{
+                    white-space:nowrap;
+                    text-transform:none;
+                    padding:5px 2px;
+                }
+.bogema1 ul li ul li a:hover{
+                        background:url(2.png);
+				}
+.Board2 {
+	background: url(.jpg);
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+position: absolute;
+transition: 0.6s all;
+width: 600px;
+height: auto;
+border: 6px double #00BFFF; 
+border-radius: 15px; 
+padding-left: 20px; 
+padding-right:60px;
+opacity: 0.8; 
+transform: scale(1);
+top: 5px;
+left: 500px;
+margin-left: 5px;
+}
+.Board2:hover{
+opacity: 1;
+transform: scale(1);
+}
+.Kontakti{
+list-style-type: none;
+position: absolute;
+top:320px;
+bottom:;
+left:10px;
+right:25px;
+transition: 0.6s all;
+margin-bottom: 5px;
+margin-top: 5px;
+border: 6px double #00BFFF; 
+padding: 5px;
+background-imag: url(5.png);
+background-size:200px 320px;
+border-radius: 8px; 
+display: block;
+width:200px;
+height:245px;
+transform: scale (1);
+opacity: 0.8;
+}
+.Kontakti:hover{
+opacity: 1; transform: scale(1);
+}
+.odr{
+	border: 2px solid #00BFFF; 
+margin-left: 50px;
+margin-bottom: 3px;
+    margin-top: 46px;
+}
+.odr1{
+	border: 2px solid #00BFFF; 
+margin-left: 50px;
+margin-bottom: 3px;
+    margin-top: 27px;
+}
