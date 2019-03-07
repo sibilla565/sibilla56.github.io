@@ -217,6 +217,31 @@ opacity: 0.99;
 .Kontakti1:hover{
 opacity: 1; transform: scale(1);
 }
+.Kontakti3{
+list-style-type: none;
+margin: 5px 5px 5px 3px;
+position: absolute;
+top:275px;
+bottom:;
+right:1060px;
+left:25px;
+transition: 0.6s all;
+margin-bottom: 5px;
+margin-top: 5px;
+border: 6px double #00BFFF; 
+padding: 5px;
+background-imag: url(5.png);
+background-size:200px 320px;
+border-radius: 8px; 
+display: block;
+width:200px;
+height:200px;
+transform: scale (1);
+opacity: 0.99;
+}
+.Kontakti3:hover{
+opacity: 1; transform: scale(1);
+}
 #Helper{
 background-attachment: absolute;
 background-repeat: no-repeat;
@@ -349,6 +374,7 @@ opacity: 0.99;
 .Kontakti2:hover{
 opacity: 1; transform: scale(1);
 }
+
 .odr{
 	border: 2px solid #00BFFF; 
 margin-left: 50px;
