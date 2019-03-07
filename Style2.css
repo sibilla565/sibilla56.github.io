@@ -217,7 +217,7 @@ opacity: 0.99;
 .Kontakti1:hover{
 opacity: 1; transform: scale(1);
 }
-.Kontakti3{
+.Kontakti4{
 list-style-type: none;
 margin: 5px 5px 5px 3px;
 position: absolute;
@@ -239,7 +239,7 @@ height:200px;
 transform: scale (1);
 opacity: 0.99;
 }
-.Kontakti3:hover{
+.Kontakti4:hover{
 opacity: 1; transform: scale(1);
 }
 #Helper{
